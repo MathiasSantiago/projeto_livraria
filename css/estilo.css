@@ -8,6 +8,8 @@ body {
 }
 
 
+
+
 /****************header****************/
 #topo h1{
     color: red;
@@ -26,9 +28,9 @@ body {
     background-color: rgb(214, 20, 20);
     text-align: center;
     margin: 0 auto;
-    border-radius: 60px;
-    padding: 10px;
-
+    border-radius: 10px;
+    padding: 5px 0;
+    border: 1px solid black;
 }
 
 #menu li {
@@ -39,13 +41,58 @@ body {
     margin-top: center;
 }
 
-/****************main*****************/
-.destaques h2{
-    color: blue;
+#menu ul a:hover{
+    color: aliceblue;
+    background-color: black;
+    border-top: 3px ;
 }
+
+
+/****************main*****************/
 .sobre h3{
     color: red;
 }
+.destaques h2{
+    color: blue;
+}
+.destaques{
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.destaques ul li{
+    width: 46%;
+    flex-direction: column;
+    display: flex;
+    margin: 2%;
+    align-items: center;
+}
+
+.destaques ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.destaques li ul img{
+    border-radius: 20%;
+    height: 80px;
+    width: 230px;
+}
+
+.destaques li ul img:hover {
+    height: 500px;
+    width: 500px;
+}
+
+.destaques li ul img:hover {
+    border-bottom: 10px solid yellow;
+    border-right: 10px solid yellow;
+}
+
+/****************SOBRE*****************/
+
 
 
 /****************footer*****************/
+
+#rodapé 
